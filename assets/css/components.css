@@ -1,0 +1,116 @@
+@import url("../fonts/bold/style.css");
+@import url("../fonts/prolight/style.css");
+
+:root {
+    --color-azul-oscuro: #003057 ;
+    --color-azul-claro: #0061A0 ;
+    --color-celeste: #0094D5 ;
+    --color-negro: #373A36;
+    --color-cool-gray: #D0D0CE;
+    --fuente: 'Metronic Pro';
+    --n-height: 100px;
+
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0; 
+    /* box-sizing: border-box; */
+
+}
+
+html {
+    color: var(--color-negro);
+    font-family: var(--fuente), sans-serif;
+
+    
+
+}
+body {
+    font-family: var(--fuente);
+    scroll-snap-type: y mandatory;
+}
+
+/* BOTONES */
+.btn-principal {
+    font-family: 'Metronic Pro';
+    font-weight: 600;
+    padding: 0.5REM;
+    color: #fff;
+    background-color: var(--color-azul-oscuro);
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    height: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.btn-principal:hover {
+    background-color: #fff;
+    color: var(--color-azul-claro);
+    border: 1px solid var(--color-azul-claro);
+    transition: 0.2s;
+}
+/* /--BOTONES */
+
+/*links */
+
+.logo {
+    width: 130px;
+    height: 40px;
+}
+
+
+
+.container {
+    max-width: 95vw;
+    width: 100%;
+    margin: 0 auto;
+    height: calc(100vh - 6rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.section {
+    display: flex;
+    height: calc( 100vh - 69 px );
+    scroll-snap-align: start;
+
+}
+
+.tittle {
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 3rem;
+    text-shadow: 4px 4px 2px rgba(255,255,255,0.6);
+    color: #003057;
+}
+
+.conteiner-main {
+    align-content: center;
+    width: 50%;
+    height: 300Px;
+    background: rgba(255,255,255,0.2);
+    /* border: 2px solid rgba(255, 255, 255, 0.5); */
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: var(--color-azul-oscuro);
+    justify-content: space-around
+
+
+}
+
+.conteiner-main-2 {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}

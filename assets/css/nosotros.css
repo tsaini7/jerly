@@ -1,0 +1,13 @@
+#nosotros {
+    height: calc( 100vh - 69px);
+    background-color: #e9e9e6;
+}
+
+#nosotros .tittle {
+    color: var(--color-azul-oscuro);
+}
+
+#titulo-quienes {
+    cursor: pointer;
+    scroll-snap-align: center;
+}

@@ -1,0 +1,10 @@
+
+FUENTE
+
+PRO BOLD
+<link href="https://db.onlinewebfonts.com/c/e3f201520edfd80036162ca6e0d00852?family=MetronicProBold" rel="stylesheet">
+font-family: "MetronicProBold";
+
+PRO LIGHT
+<link href="https://db.onlinewebfonts.com/c/93f55d29029218b4bf45daef338e0967?family=MetronicProLight" rel="stylesheet">
+font-family: "MetronicProLight";
